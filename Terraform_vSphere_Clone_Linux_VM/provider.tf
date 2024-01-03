@@ -13,4 +13,6 @@ provider "vsphere" {
   password             = var.vCenter_password
   vsphere_server       = var.vCenter_server
   allow_unverified_ssl = true
+  #allow_unverified_ssl = true
+
 }
